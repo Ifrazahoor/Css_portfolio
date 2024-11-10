@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.about{
+    height: 35rem;
+    width: 100vw;
+    display: flex;
+    /*align-items: center;*/
+}
+.img{
+    height: 25rem;
+    width: 23vw;
+    
+    border: 2px solid white;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.imag{
+    height: 25rem;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    width: 20vw;
+}
+.aboutsec{
+    height: 35rem;
+    width: 75rem;
+    
+}
+.h1about{
+    font-size: 2rem;
+    text-align: center;
+}
+.h3head{
+    text-align: center;
+    color: gray;
+    font-size: 1rem;
+}
+.paraabout{
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.para2{
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.btnabout1{
+    height: 3rem;
+    width: 10vw;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    border: none;
+    background-color: gray;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+.skills{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding: 70px;
+    padding-top: 30px;
+
+}
+.sub-title span{
+    color: rgb(50, 182, 253);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.skills{
+    padding-top: 2rem;
+    margin-right: 20rem;
+    padding-right: 5rem;
+}
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 15rem;
+    padding-bottom: 5rem;
+}
+.heading{
+    font-size: 2rem;
+    margin-bottom:25px;
+    text-align: center;
+    color: #333;
+
+}
+.bar{
+    font-size: 23px;
+}
+.technical-bars .bar{
+margin: 5px 0;
+
+}
+.indfo span{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+.progress-line{
+position: relative;
+height: 7px;
+background: #e0e0e0;
+border-radius: 10px;
+overflow: hidden;
+margin-top: 8px;
+}
+.progress-line span{
+    display: block;
+    height: 100%;
+    border-radius: 8px;
+    animation: progress 2s ease-in-out forwards;
+}
+@keyframes progress{
+    from{
+        width: 90%;
+    }
+}
+.progress-line.html span{
+width: 90%;
+background-color: #0d27ea;
+}
+.progress-line.css span{
+    width: 60%;
+    background-color: #2965f1;
+}
+.progress-line.javascript span{
+    width: 70%;
+    background-color: #0d33f3;
+}
+.progress-line.python span{
+    width: 50%;
+    background-color:#580ce6 ;
+}
+.progress-line.react span{
+    width: 30%;
+    background-color: #440ae3;
+}
+.progress-line span::after{
+    position: absolute;
+    padding: 1px 8px;
+}
