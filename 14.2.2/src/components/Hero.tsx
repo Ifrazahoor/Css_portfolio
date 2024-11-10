@@ -14,7 +14,7 @@ export default function Hero(){
         </div>
         {/*right*/}
 <div className="hero-right-div">
-    <h1 className="title-hero">I'am Ifra Zahoor Front-End Developer</h1>
+    <h1 className="title-hero">I am Ifra Zahoor Front-End Developer</h1>
     <p className="des-hero">A front-end developer is responsible for creating the visual and interactive elements of a website or web application. They use technologies like HTML, CSS, and JavaScript to build responsive, 
 user-friendly interfaces that provide an engaging experience.</p>
  <div className="btnnav">
